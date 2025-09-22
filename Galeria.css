@@ -1,0 +1,27 @@
+.Galeria{
+border: 1px solid red;
+padding: 10px;
+border-radius: 5px;
+width: 90%;
+height: 350px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+gap: 10px;
+}
+.div-img{
+border: 1px solid black;   
+height: 200px; 
+grid-column: 1/5;
+width: 95%;
+}
+
+.titulo{
+    grid-column: 1/5;
+}
+.descripción{
+    grid-column: 1/5;
+}
+.txt-precio{
+    grid-column: 4/5;
+}
